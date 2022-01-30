@@ -26,11 +26,16 @@ public class Temperature {
                 break;
 
             case 2:
-                System.out.print(val + " Fahrenheit adalah ");
+                System.out.println(val + " Fahrenheit adalah ");
                 System.out.println((val - 32) * 5/9 + " Celcius");
                 break;
 
             case 3:
+                System.out.println(val + " Fahrenheit adalah ");
+                System.out.println((val - 32 ) * 5/9 + 273.15 + " Kelvin");
+                break;
+
+                
         }
 
     }
