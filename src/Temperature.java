@@ -41,8 +41,8 @@ public class Temperature {
                 break;
 
             case 5:
-                System.out.println(val + " Celcius adalah ");
-                System.out.println(val + 273.15 + " Kelvin");
+                System.out.println(val + " Kelvin adalah ");
+                System.out.println(val + 273.15 + " Celcius");
                 break;
 
             case 6:
