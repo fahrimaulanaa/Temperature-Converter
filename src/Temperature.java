@@ -15,7 +15,7 @@ public class Temperature {
         System.out.println("Fahrenheit ke Kelvin (Ketik 3)");
         System.out.println("Kelvin ke Fahrenheit (Ketik 4)");
         System.out.println("Kelvin ke Celcius (Ketik 5)");
-        System.out.println("Celcius ke Kelvin");
+        System.out.println("Celcius ke Kelvin (Ketik 6)");
         int pilihan = sc.nextInt();
 
         //Switch case untuk menghitung
@@ -35,7 +35,22 @@ public class Temperature {
                 System.out.println((val - 32 ) * 5/9 + 273.15 + " Kelvin");
                 break;
 
-                
+            case 4:
+                System.out.println(val + " Kelvin adalah ");
+                System.out.println((val - 273.15) * 9/5 + 32 + " Fahrenheit");
+                break;
+
+            case 5:
+                System.out.println(val + " Celcius adalah ");
+                System.out.println(val + 273.15 + " Kelvin");
+                break;
+
+            case 6:
+                System.out.println(val + " Celcius adalah ");
+                System.out.println(val + 273.15 + " Kelvin ");
+                break;
+            default:
+                System.out.println("Please enter correct choice");
         }
 
     }
