@@ -6,7 +6,7 @@ public class Temperature {
 
         //Input suhu awal, hanya dapat memasukkan bilangan bulat
         System.out.println("Masukkan Suhu: ");
-        int val = sc.nextInt();
+        double val = sc.nextDouble();
         System.out.println();
 
         //Input untuk menentukan mau di convert ke suhu apa
